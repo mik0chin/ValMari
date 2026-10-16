@@ -15,8 +15,119 @@ a{
 button{
     cursor: pointer;
     border: 0;
+    background: none;
 }
 .container{
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+.header-top{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(85, 166, 48, 0.5);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-info{
+    display: flex;
+}
+.top-info>a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 104%;
+    color: #424242;
+    display: flex;
+    align-items: center;
+}
+.top-info>a>img{
+    margin-right: 22px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+    margin-right: 66px;
+}
+.social>li{
+    margin-right: 26px;
+}
+.social>li:last-child{
+    margin-right: 0;
+}
+.header-bottom{
+    padding: 23px 0;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu>li>a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163%;
+    color: #424242;
+}
+.banner{
+    padding-top: 71px;
+    padding-bottom: 138px;
+    background: #ecffeb;
+}
+.banner h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #424242;
+}
+.banner h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 100%;
+    color: #55a630;
+    text-transform: uppercase;
+    max-width: 496px;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115%;
+    color: #424242;
+    max-width: 419px;
+    margin-bottom: 57px;
+}
+.reg{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: #fff;
+    background: #55a630;
+    padding: 20px 40px;
+    margin-right: 20px;
+}
+.more{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: #55a630;
+    border: 1px solid #55a630;
+    padding: 20px 58px;
+    position: relative;
+    z-index: 2;
+}
+.banner img{
+    position: absolute;
+    bottom: -96px;
+    right: 320px;
 }
